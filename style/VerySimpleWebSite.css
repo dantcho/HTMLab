@@ -1,0 +1,44 @@
+#heading {
+    background: rgb(245, 245, 220);
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nav {
+    width: 135px;
+    height: 145px;
+    background: rgb(245, 245, 220);
+    float: left;
+    margin-top: 10px;
+}
+
+.navigate {
+    color: rgb(177, 42, 42);
+    font-family: Arial;
+    width: 120px;
+    height: 25px;
+    margin: auto;
+    margin-top: 10px;
+    background: rgb(245, 245, 220);
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.navigate:hover {
+    background: rgb(222, 184, 135);
+}
+
+#footer {
+    background: rgb(245, 245, 220);
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+#data {
+    background: rgb(245, 245, 245);
+    display: block;
+    float: right;
+    width: 400px;
+}
