@@ -1,7 +1,13 @@
+body{
+    font-family: Arial;
+}
 header {
     background: rgb(245, 245, 220);
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
+}
+a{
+    text-decoration: none;
 }
 
 nav {
@@ -13,20 +19,25 @@ nav {
     padding: 0;
 }
 ul{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 
 }
 li {
+    text-decoration: none;
     color: rgb(177, 42, 42);
-    font-family: Arial;
-    width: 120px;
+    font-size: 1.2em;
+    width: 107px;
     height: 35px;
-    margin: auto;
+    margin: 5px auto ;
     margin-top: 10px;
     background: rgb(245, 245, 220);
     border-radius: 5px;
-    text-align: center;
     list-style-type: none;
-    padding: 10px 0 0 0;
+    line-height: 37px;
+    padding: 0 0 0 6px;
+
     /*   padding-top: 10px;*/
 }
 
@@ -36,8 +47,11 @@ li:hover {
 
 footer {
     background: rgb(245, 245, 220);
-    margin: 10px;
+    margin: 0 0 0 0;
     text-align: center;
+    clear: both;
+    display: block;
+    padding: 5px;
 }
 
 section {
