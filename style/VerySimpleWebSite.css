@@ -1,42 +1,46 @@
-#heading {
+header {
     background: rgb(245, 245, 220);
     margin: 0 auto;
     text-align: center;
 }
 
-#nav {
+nav {
     width: 135px;
     height: 145px;
     background: rgb(245, 245, 220);
     float: left;
     margin-top: 10px;
+    padding: 0;
 }
+ul{
 
-.navigate {
+}
+li {
     color: rgb(177, 42, 42);
     font-family: Arial;
     width: 120px;
-    height: 25px;
+    height: 35px;
     margin: auto;
     margin-top: 10px;
     background: rgb(245, 245, 220);
     border-radius: 5px;
     text-align: center;
-    padding-top: 10px;
+    list-style-type: none;
+    padding: 10px 0 0 0;
+    /*   padding-top: 10px;*/
 }
 
-.navigate:hover {
+li:hover {
     background: rgb(222, 184, 135);
 }
 
-#footer {
+footer {
     background: rgb(245, 245, 220);
-    margin: auto;
+    margin: 10px;
     text-align: center;
-    display: inline-block;
 }
 
-#data {
+section {
     background: rgb(245, 245, 245);
     display: block;
     float: right;
